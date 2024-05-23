@@ -1,0 +1,41 @@
+{
+  "name": "eslint-config-tip",
+  "description": "An opinionated ESLint config with rules for typescript, imports and prettier.",
+  "version": "0.0.0",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "homepage": "https://github.com/jxdp/eslint-config-tip",
+  "bugs": {
+    "url": "https://github.com/jxdp/eslint-config-tip/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jxdp/eslint-config-tip.git"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "typescript.js",
+    "import.js",
+    "prettier.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --ext .js,.json --fix"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^7",
+    "@typescript-eslint/parser": "^7",
+    "eslint-config-prettier": "^9",
+    "eslint-import-resolver-typescript": "^3",
+    "eslint-plugin-import": "^2",
+    "eslint-plugin-prettier": "^5",
+    "prettier": "^3"
+  },
+  "peerDependencies": {
+    "@types/eslint": "^8",
+    "eslint": "^8"
+  }
+}
