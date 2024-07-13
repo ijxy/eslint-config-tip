@@ -6,13 +6,13 @@
     "eslint",
     "eslintconfig"
   ],
-  "homepage": "https://github.com/jxdp/eslint-config-tip",
+  "homepage": "https://github.com/ijxy/eslint-config-tip",
   "bugs": {
-    "url": "https://github.com/jxdp/eslint-config-tip/issues"
+    "url": "https://github.com/ijxy/eslint-config-tip/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jxdp/eslint-config-tip.git"
+    "url": "git+https://github.com/ijxy/eslint-config-tip.git"
   },
   "license": "MIT",
   "main": "index.js",
